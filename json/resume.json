@@ -1,0 +1,44 @@
+{
+    "myResume" : {
+        "personalInfo": {
+            "name": "Vignesh",
+            "age": 25,
+            "isMarried": false,
+            "nationality": "Indian",
+            "relegion": "Hindu",
+            "languagesKnown": ["English", "Tamil"],
+            "address": {
+                "streetAddres": " No 15, 1st cross Anna street, Sholinganallu",
+                "city": "chennai",
+                "state": "Tamilnadu",
+                "pincode": 600119
+            }
+        },
+        "educationalInfo": {
+            "sslc": {
+                "schoolName": "Govt Higher Secondary School, Sholinganallur",
+                "passedOutYear": 2014,
+                "marks": 392
+            },
+            "hsc": {
+                "schoolName": "Govt Higher Secondary School, Sholinganallur",
+                "passedOutYear": 2016,
+                "marks": 925
+            },
+            "underGraduation": {
+                "collegeName": "Hindustan College Of Arts and Science",
+                "degree": "B.Com",
+                "passedOutYear": 2019,
+                "percentage": "70%"
+            }
+        },
+        "workExperience": {
+            "companyName": "AGS Healthcare",
+            "yearOfExp": "2 Years",
+            "position": "AR Representative"
+        },
+        "skills": ["HTML", "CSS", "JS", "PhotoshopCS6, CC, Lightroom"],
+        "hobbies": ["Jim", "Watching Anime"]
+    }
+    }
+    

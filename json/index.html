@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+
+<body>
+    <script>
+////////////////////////Resume in JSON Format/////////////////////////////
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let response = JSON.parse(xhttp.responseText);
+                console.log(response.myResume);         
+            }
+        };
+        xhttp.open("GET", "resume.json", true);
+        xhttp.send();
+
+///////////////////Rest Countries API/////////////////////////////////////
+
+        let xhr = new XMLHttpRequest();
+        console.log(xhr);
+        xhr.open("GET", "https://restcountries.com/v3.1/all");
+        xhr.send();
+        xhr.onload = function (){
+            const data = JSON.parse(xhr.response); 
+
+////////////////////////////////////////Country Flag/////////////////////////////////////////////////
+console.log("*********Country Flag**********");    
+            let keys = Object.keys(data)
+            let values = Object.values(data)
+            for (let i = 0; i<data.length; i++){
+                console.log("Flag: " + data[i].flag);
+            }
+//////////////////////Country Name, Region, Sub Region and Population/////////////////////////////////
+console.log("*****Country Name, Region, Sub Region and Population******");
+            for (let i = 0; i<data.length; i++){
+                console.log("Country Name: " + data[i].name.common + ", Region: " + data[i].region +", Sub Region: " + data[i].subregion + ", Population: " + data[i].population);
+            }
+        }
+        
+
+    </script>
+    <script type="module" src="json.js"></script>
+
+</body>
+
+</html>

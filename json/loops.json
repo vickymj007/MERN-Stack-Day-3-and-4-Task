@@ -1,0 +1,42 @@
+{
+    "Labrador" : {
+        "price": 8000,
+        "lieSpan": "8-10 Years",
+        "breedSize": "Large Breed",
+        "temperament": "Non Aggressive",
+        "colors" : ["Black", "White", "Brown"]
+    },
+    "Siberian Husky" : {
+        "price": 30000,
+        "lieSpan": "8-12 Years",
+        "breedSize": "Medium",
+        "temperament": "Non Aggressive",
+        "colors" : ["Black", "White", "Brown", "Grey"]
+    },
+    "Pug" : {
+        "price": 10000,
+        "lieSpan": "8-12 Years",
+        "breedSize": "Toy Breed",
+        "temperament": "Non Aggressive",
+        "colors" : ["Brown"]
+    },
+    "Pitbull" : {
+        "price": 40000,
+        "lieSpan": "8-12 Years",
+        "breedSize": "Medium Breed",
+        "temperament": "Aggressive",
+        "colors" : ["Black", "White", "Brown", "Grey"]
+    },
+    "Shih Tzu" : {
+        "price": 12000,
+        "lieSpan": "8-12 Years",
+        "breedSize": "Toy Breed",
+        "temperament": "Non-Aggressive",
+        "colors" : ["Black", "White", "Brown", "Grey"]
+    } 
+}
+        
+
+    
+    
+    
